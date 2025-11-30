@@ -36,14 +36,14 @@ const passwords = {
 let assignments = {
     "Felix": "MAXI", 
     "Lilly": "KLARA",
-    "Leonie": "BITTE ERSETZEN",
-    "Fabian": "BITTE ERSETZEN",
-    "Deliah": "BITTE ERSETZEN",
-    "Maxi": "BITTE ERSETZEN",
-    "Klara": "BITTE ERSETZEN",
-    "Sebastian": "BITTE ERSETZEN",
-    "Anke": "BITTE ERSETZEN",
-    "Thilo": "BITTE ERSETZEN"
+    "Leonie": "LILLY",
+    "Fabian": "FELIX",
+    "Deliah": "FABIAN",
+    "Maxi": "SEBASTIAN",
+    "Klara": "ANKE",
+    "Sebastian": "THILO",
+    "Anke": "LEONIE",
+    "Thilo": "DELIAH"
 };
 // =========================================================================
 
