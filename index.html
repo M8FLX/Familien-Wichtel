@@ -1,0 +1,23 @@
+<div class="container">
+    <h1>Macht Familien-Wichteln</h1>
+    <div class="password-section">
+        <p>Bitte gib dein persönliches Passwort ein, um zu sehen, wen du bewichteln darfst:</p>
+        <input type="password" id="passwordInput" placeholder="Dein Passwort" autocomplete="off">
+        <button id="revealButton">Wen bewichtle ich?</button>
+        <p id="errorMessage" class="error"></p>
+    </div>
+    <div id="resultSection" class="result-section hidden">
+        <p id="greetingText">Du bewichtelst:</p>
+        
+        <div class="gift-box-wrapper reveal-area">
+            <div class="gift-box" id="giftBox">
+                <div class="gift-top" id="giftTop"></div>
+                <div class="gift-body"></div>
+            </div>
+            <h2 id="wichtelChildName" class="hidden"></h2>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
