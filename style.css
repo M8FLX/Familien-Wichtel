@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('Familienfoto.jpg'); /* HIER URL ODER PFAD ANPASSEN */
+    background-image: url('Familienfoto.jpg'); /* Stellen Sie sicher, dass dies exakt Ihrem Dateinamen entspricht (Groß-/Kleinschreibung!) */
     background-size: cover;
     background-position: center;
     display: flex;

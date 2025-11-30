@@ -1,4 +1,3 @@
-// 1. Teilnehmer und Ausschlussregeln
 const participants = [
     "Felix", "Lilly", "Leonie", "Fabian", "Deliah", 
     "Maxi", "Klara", "Sebastian", "Anke", "Thilo"
@@ -91,7 +90,7 @@ function generateSecretAssignments() {
 // Initialisiere die Zuordnungen beim Laden des Skripts
 generateSecretAssignments();
 
-// Event-Listener für den Button
+// Event-Listener für den Button (Ursache für den Fehler "Button funktioniert nicht" oft hier zu finden)
 document.getElementById('submitButton').addEventListener('click', function() {
     const passwordInput = document.getElementById('passwordInput').value;
     const errorMessage = document.getElementById('errorMessage');
