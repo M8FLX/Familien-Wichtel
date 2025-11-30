@@ -34,8 +34,8 @@ const passwords = {
 // Beispiel: "Felix": "Maxi", "Lilly": "Klara", usw.
 // =========================================================================
 let assignments = {
-    "Felix": "BITTE ERSETZEN", 
-    "Lilly": "BITTE ERSETZEN",
+    "Felix": "MAXI", 
+    "Lilly": "KLARA",
     "Leonie": "BITTE ERSETZEN",
     "Fabian": "BITTE ERSETZEN",
     "Deliah": "BITTE ERSETZEN",
