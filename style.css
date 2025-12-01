@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url('Familienfoto.jpg'); /* Stellen Sie sicher, dass dies exakt Ihrem Dateinamen entspricht (Groß-/Kleinschreibung!) */
+    background-image: url('Familienfoto.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -88,9 +88,11 @@ h1 {
 .gift-box {
     overflow: hidden;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: auto; 
+    min-height: 150px; 
     margin-top: 15px;
 }
 
@@ -100,15 +102,29 @@ h1 {
     color: #c0392b; /* Weihnachtsrot */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     
-    /* Animation: Name ist anfangs unsichtbar und unten */
+    /* NEU: Erzwingt GROSSBUCHSTABEN */
+    text-transform: uppercase;
+    
     opacity: 0;
     transform: translateY(100px) scale(0.5); 
     
-    /* Animationseinstellungen */
     animation: gift-reveal 1.5s ease-out forwards;
 }
 
-/* Keyframes für den "Geschenk springt auf und Name kommt heraus" Effekt */
+.drawn-image {
+    max-width: 150px; 
+    max-height: 150px; 
+    border-radius: 50%; 
+    border: 3px solid #27ae60; 
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover; 
+
+    opacity: 0;
+    transform: scale(0.5) translateY(50px);
+    animation: image-reveal 1.5s ease-out 0.5s forwards; 
+}
+
 @keyframes gift-reveal {
     0% {
         opacity: 0;
@@ -121,5 +137,16 @@ h1 {
     100% {
         opacity: 1;
         transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes image-reveal {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
     }
 }
