@@ -1,21 +1,13 @@
 // 1. Teilnehmer und Ausschlussregeln (werden nur zur Definition der Paare benötigt)
 const participants = [
-    "Felix", "Lilly", "Leonie", "Fabian", "Deliah", 
+    "Felix", "Leonie", "Fabian", "Deliah", 
     "Maxi", "Klara", "Sebastian", "Anke", "Thilo"
 ];
 
-const partners = {
-    "Felix": "Lilly", "Lilly": "Felix",
-    "Leonie": "Fabian", "Fabian": "Leonie",
-    "Deliah": "Maxi", "Maxi": "Deliah",
-    "Klara": "Sebastian", "Sebastian": "Klara",
-    "Anke": "Thilo", "Thilo": "Anke"
-};
 
 // 2. Zugriffs- und Passwort-Logik
 const passwords = {
     "XMAS2025": "Felix",
-    "Stern123": "Lilly",
     "Wintergrün": "Leonie",
     "Geschenk47": "Fabian",
     "WichtelFee": "Deliah",
@@ -35,8 +27,7 @@ const passwords = {
 // =========================================================================
 let assignments = {
     "Felix": "MAXI", 
-    "Lilly": "KLARA",
-    "Leonie": "LILLY",
+    "Leonie": "KLARA",
     "Fabian": "FELIX",
     "Deliah": "FABIAN",
     "Maxi": "SEBASTIAN",
