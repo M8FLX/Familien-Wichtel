@@ -31,16 +31,17 @@ const passwords = {
 // Nun nur noch 9 Teilnehmer (Lilly ist raus).
 // =========================================================================
 let assignments = {
-     "Felix": "MAXI", 
+     "Felix": "DELIAH", 
     // "Lilly": "BITTE ERSETZEN", <--- ENTFERNT
     "Leonie": "ANKE",
-    "Fabian": "FELIX",
-    "Deliah": "FABIAN",
-    "Maxi": "LEONIE",
-    "Klara": "DELIAH",
-    "Sebastian": "THILO",
-    "Anke": "KLARA",
-    "Thilo": "SEBASTIAN"
+    "Fabian": "MAXI",
+    "Deliah": "SEBASTIAN",
+    "Maxi": "KLARA",
+    "Klara": "THILO",
+    "Sebastian": "FELIX",
+    "Anke": "FABIAN",
+    "Thilo": "LEONIE"
+    
 };
 // =========================================================================
 
